@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  width: 100%;
+  background-color: rgb(216, 171, 216);
+}
+
+main{
+  background-color: rgb(13, 199, 245);
+  width: 100%;
+  
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input
+{ 
+  padding: 25px;
+  width: 50%;
+  height: 440px;
+ background-color: white;
+ border-radius: 50px;
+ display: block;
+ justify-content: center;
+    
+    
+   
+}
+
+.add-item
+{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.add-item input
+{
+  border: none;
+  outline: none;
+  appearance: none;
+  padding: 5px;
+  width: 50%;
+  border-radius: 30px;
+  color: black;
+  background-color: rgba(196, 148, 148, 0.3);
+}
+
+.add-item button
+{
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  width: 40px;
+  margin: 4px;
+  background-color: rgb(173, 194, 173);
+  color: black;
+}
+.add-item button:hover{
+  background-color: lightgreen;
+}
+
+.list-items
+{
+  height: 300px;
+  width: 60%;
+  background-color: rgb(160, 223, 223);
+  margin-left: 90px;
+  margin-top: 50px;
+  border-radius: 16px;
+  overflow: auto;
+  
+}
+
+.list
+{
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px;
+
+}
+
+
+.list button
+{
+  border-radius: 5px;
+  padding: 2px;
+  background-color: red;
+  color: black;
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+  font-size: 15px;
+  
+}
+.list button:hover{
+  
+  border: none;
+  appearance: none;
+}
+
+
+.list li{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  background-color: rgb(218, 111, 218) ;
+  border-radius: 6px;
+  margin: 5px;
+  
+}
